@@ -1,14 +1,49 @@
-body {
-    background-image: url(../Img/Dev-Full-Stack-1280x720.png);
-    background-color: aquamarine;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    background-color: rgba(0, 0, 0, 0.859);
+        color: white;
+    grid-area: auto;
+    }
+h1{
+    color: rgba(231, 187, 10, 0.666);
+    background-position: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content 
+    font-family: 'Roboto', sans-serif; 
+}
+h2{
+    color: steelblue;
+    width: 50%;
+    margin-bottom: 1px;
+}
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-left: 10px;
     
 }
-.banner {
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    background-repeat: inherit;
-    background-size: cover;
-    background-image: url(https://cdn.maioresemelhores.com/imagens/cachorros-pequenos-1.jpg);
+a {
+    background-color: yellow;
 }
+.cabeçalho {
+    text-align: center;
+}
+.logo {
+    background-image: url(/Img/cartaz_filme.webp);
+    border-radius: 85px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    top: 0%;
+    }
+.review-score {
+    padding: 12px;
+    background-color: #e6bd09b5;
+    text-align: center;
+    }
+
+
+
