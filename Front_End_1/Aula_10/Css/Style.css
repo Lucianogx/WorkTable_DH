@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Smooch&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.topo {
+position: relative;
+left: 0px;
+top: 0px;
+padding: 10px;
+background: #1CD1B0;
+font-family: 'Roboto';
+
+}
+#super__titulo{
+    background-color: #00669F;    
+}
+.super{
+    background-color: #00669F;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 75px;
+    padding: 20px;
+    font-family: 'Roboto';
+}
+.card__imgFundo img{
+    width: 300px;
+}
+.card__imgFundo{
+    left: 150px; 
+}
+.card__usuario img{ 
+    background-color: blue;
+    position: absolute;
+    bottom: 95px;
+    left: 105px;
+    border-radius: 50%;
+    width: 90px;
+}
+.card__usuario{
+    position:absolute;
+    height: 150px;
+    width: 150px;
+}
+.card__textBox {
+    text-align: justify;
+    padding: 25px;
+    position: relative;
+    top: 45px;
+    text-align: center;
+}
+.card__titulo{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 55px;
+}
+.card__botao {
+    background-color:#00669F;
+    ;
+    position: absolute;
+    height: 36px;
+    width: 150px;
+    top: 400px;
+    left: 80px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.heart{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 200px;
+}
+.card__1{
+    font-family: 'Roboto';
+    position: relative;
+    height: 450px;
+    width: 300px;
+    left: 400px;
+    top: 225px;
+    border-radius: 10px solid ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       
+}
+.card__2{
+
+    font-family: 'Roboto';
+    position: relative;
+    height: 450px;
+    width: 300px;
+    left: 800px;
+    bottom: 225px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+footer{
+    background-color: #00669F;
+    height: 51px;
+    width: 100%;
+    left: 0px;
+}
+#text__footer{
+    background-color: #00669F;
+    text-align: left ;
+    padding: 15px;
+    color: #FFF9F9;
+}
