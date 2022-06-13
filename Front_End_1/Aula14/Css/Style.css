@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Smooch&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.topo {
+    background-color: #D1891C;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px;
+    color: #333333;
+    font-size: 1.2em;
+}
+#topo__prop {
+    margin-left: 25px;
+}
+.super {
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);       
+}
+
+#super__titulo {
+    font-size: 47.5px;
+    color: aliceblue;
+    padding: 10px;
+    
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+    gap: 50px;   
+    
+}
+.card__1{
+    display: block;
+    height: 475px;
+    width: 300px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 15px;
+}
+.card__backImg{
+    background-image:  url(/Img/backgroud01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 175px;
+    width: 100%;
+    border-radius: 10px;
+}
+.card__user img {
+    border-radius: 80px;
+    position: relative;
+    bottom: 55px;
+    left: 85px;
+}
+.card__user {
+ position: absolute; 
+   
+}
+.card__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 225px;
+    margin-top: 75px;
+    padding: 15px;
+    text-align: justify;
+}
+ #text__tittle {
+    font-size: 40px;
+ }
+ #card__link {
+    border: 2px solid black;
+    background: #00669F;
+    color: white;
+    text-decoration: none;
+    text-decoration-line: none;
+    height: 50px;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+ }
+
+
+footer {
+    height: 85px;
+    color: white;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ footer img {
+     height: 25px;
+}
