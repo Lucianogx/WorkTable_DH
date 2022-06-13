@@ -54,6 +54,7 @@
 .prompTwo {
     background-image:  url(/Img/bowl-and-pet-daities-on-green-background\ 1.png);
     display: flex;
+    
 }
 .wellcomeprop {
     display: flex;
@@ -228,6 +229,15 @@ input[type=text],[type=email], [type=number] {
     flex-direction: column;
     justify-content: right;
     flex-wrap: wrap;    
+    gap: 10px;
+}
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.informations__detail div{
+    display: flex;
     gap: 10px;
 }
 .links {
